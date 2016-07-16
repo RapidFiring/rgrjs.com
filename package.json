@@ -1,0 +1,23 @@
+{
+  "name": "rgrjs",
+  "version": "1.0.0",
+  "description": "Testing React, GraphQL and Relay according to PLURALSIGHT Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rapidfiring/rgrjs.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rapidfiring/rgrjs.com/issues"
+  },
+  "homepage": "https://github.com/rapidfiring/rgrjs.com#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
