@@ -48,7 +48,7 @@ webpack <options>
   |      |
   --  View
 
-  ### Actions ###
+### Actions ###
   - Objects/Data
   - "type" property: How to use the action
   - Action Creators: Methods in a module
@@ -68,7 +68,7 @@ webpack <options>
   }
   ````
 
-  ### Dispatcher ###
+### Dispatcher ###
   - registry of fallbacks
   - fixed, singleton `A.waitFor(B)`
   - Payload is an action)
@@ -78,8 +78,8 @@ webpack <options>
   ````
 
   // AppDispatcher.js
-  import *Flux* from 'flux';
+  import Flux from 'flux';
 
   // Export a singleton
-  export default *new Flux.Dispatcher()*;
+  export default new Flux.Dispatcher();
   ````
